@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="./styles.css" type="text/css" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Counter</title>
-<script src="./index.js" defer></script> 
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <script src="./index.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="root">
-<div class="style-counter">
-<header class="header-style">Counter</header>
-<div class="counter">0</div> 
-</div> 
-<div id="my-button-counter">
-<button class="onPlus" type="button">+</button> 
-<button class="onMinus" type="button">-</button>
-</div>
-</div>  
+    <div id="root">
+        <h1 class="header-style">COUNTER</h1>
+        <div class="counter-container circle">
+            <p class="counter">0</p>
+            <div id="button-container">
+                <button type="button" class="minus-button circle button-style">-</button>
+                <button type="button" class="plus-button circle button-style">+</button>
+            </div>
+            <button type="button" class="reset-button">RESET</button>
+        </div>
+    </div>
 </body>
 </html>
