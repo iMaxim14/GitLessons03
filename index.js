@@ -10,7 +10,6 @@ minusButton.addEventListener("click", function (){
 
 plusButton.addEventListener("click", function (){
     let result = Number(output.innerHTML) + 1;
-
     output.innerHTML = result;
 });
 
