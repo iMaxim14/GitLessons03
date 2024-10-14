@@ -57,7 +57,8 @@ h1{
     height: 772px;
     background: #303030;
     border-radius: 50%;
-    box-shadow: 0 0px 25px   rgba(255, 255, 255, 0.13)
+    box-shadow: 0 0px 25px   rgba(255, 255, 255, 0.13);
+    padding-bottom: 70px;
 }
 
 .circle {
